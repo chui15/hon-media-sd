@@ -1,17 +1,17 @@
-# Gatsby Lander
+# HON Media SD
 
-This is an experimental starter built using [gatsby-theme-codebushi](https://github.com/codebushi/gatsby-theme-codebushi), a theme which uses [Tailwind CSS](https://tailwindcss.com/).
+HON Media SD is a static site developed using GatsbyJS and TailwindCSS to highlight services offered by an independent consulting group.
 
-Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
+## Technologies Used
 
-## Preview
+- GatsbyJS
+- React.js
+- Reactstrap
+- TailwindCSS
+- Firebase
 
-https://gatsby-lander.surge.sh/
+## Features
 
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-lander https://github.com/codebushi/gatsby-starter-lander`
-
-Run `gatsby develop` in the terminal to start the dev site.
+- Users can learn about the business.
+- Users can view services provided.
+- Users can contact the team via an email form.
