@@ -7,7 +7,7 @@ const CustomerCard = ({ customer }) => (
     <p className="mt-6">{customer.content}</p>
     <div className="flex items-center mt-8">
       <img
-        className="w-12 h-12 mr-4 rounded-full"
+        className="w-20 h-20 mr-4 rounded-full"
         src={customer.customerImage}
         alt={customer.customerName}
       />
