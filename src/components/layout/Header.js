@@ -9,19 +9,21 @@ const Header = () => (
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        HON Media SD
+        <AnchorLink className="px-1 text-black" href="#top">
+          Hon Media SD
+        </AnchorLink>
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#about">
+        <AnchorLink className="px-4 text-black hover:text-purple-700" href="#about">
           About Us
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
+        <AnchorLink className="px-4 text-black hover:text-purple-700" href="#services">
           Services
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
+        <AnchorLink className="px-4 text-black hover:text-purple-700" href="#testimonials">
           Clients
         </AnchorLink>
-        <AnchorLink className="px-4" href="#contact">
+        <AnchorLink className="px-4 text-black hover:text-purple-700" href="#contact">
           Contact
         </AnchorLink>
       </div>
