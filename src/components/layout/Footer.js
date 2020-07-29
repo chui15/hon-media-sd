@@ -6,6 +6,7 @@ const Footer = () => (
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Social Media</h2>
         <ul className="mt-4 leading-loose">
+          <i className="fa fa-instagram" aria-hidden="true" />
           <li>
             <a href="https://www.instagram.com/honmediasd/">Instagram</a>
           </li>

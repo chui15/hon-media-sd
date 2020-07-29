@@ -13,7 +13,6 @@ export default [
       'They have exceptional quality of work and have helped us grow tremendously on social media which ultimately lead us to more opportunities. They are amazing people to work with!',
     customerName: 'Ian Strelsky',
     customerTitle: 'Operations Manager',
-    customerImage:
-      'https://lh3.googleusercontent.com/proxy/LzyNdxuCJW2wtdw_AO-UsB20VGKPEvlisdSHNbUX7zKy2nBuklO7FeGhSrJ8T9KTBlpohJsNDjm-aToH8yHfod_bIBhDv24nV6-dFhjp7I0OP-fb7JVz0icBevyP7WCs0gdrCqQZhiytXQ'
+    customerImage: 'https://designlab.ucsd.edu/wp-content/uploads/2019/11/design-lab-logo-new.svg'
   }
 ];

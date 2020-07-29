@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../components/Card';
+import Contact from '../components/Contact';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
@@ -14,7 +15,7 @@ import Isabelle from './isabelle.jpg';
 
 export default () => (
   <Layout>
-    <section className="pt-20 md:pt-40">
+    <section className="pt-20 md:pt-40" id="top">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Goal</h1>
@@ -139,6 +140,7 @@ export default () => (
         Tell us about your businesses goals and we’ll tell you what we can do for you. Feel free to
         ask any questions.
       </p>
+      <Contact />
     </section>
   </Layout>
 );
