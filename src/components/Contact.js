@@ -38,6 +38,7 @@ class Contact extends Component {
         console.log("====================================")
         console.log(`${JSON.stringify(response, null, 2)}`)
         console.log("====================================")
+        this.Contact.current.reset()
       })
       .catch(error => {
         console.log("====================================")
@@ -52,7 +53,7 @@ class Contact extends Component {
         <form
           name="contact"
           method="POST"
-          action="#"
+          action="/success/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           ref={this.Contact}
@@ -106,7 +107,9 @@ class Contact extends Component {
             </label>
           </p>
           <p className="mt-8 text-xl font-light">
-            <button type="submit">Send</button>
+            <Button>
+              Send
+            </Button>
           </p>
         </form>
       </>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
+  <footer className="container mx-auto py-16 px-3 mt-30 mb-8 text-gray-800">
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Social Media</h2>
@@ -24,6 +24,7 @@ const Footer = () => (
         <p className="mt-5">San Diego, CA</p>
       </div>
     </div>
+    <div className="flex text-center mt-8">&copy; HON Media SD 2020.</div>
   </footer>
 );
 
