@@ -8,6 +8,9 @@ module.exports = {
           darker: 'hsl(240, 44%, 54%)'
         }
       }
+    },
+    container: {
+      center: true
     }
   },
   variants: {},
