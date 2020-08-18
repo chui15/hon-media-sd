@@ -8,7 +8,7 @@ HON Media SD is a static site developed using GatsbyJS and TailwindCSS to highli
 - React.js
 - Reactstrap
 - TailwindCSS
-- Firebase
+- Netlify
 
 ## Features
 
