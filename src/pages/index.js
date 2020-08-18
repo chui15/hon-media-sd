@@ -35,11 +35,10 @@ export default () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-50">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            Design And Plan Your Business&apos; Growth Strategy
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            We specialize in Social Media Strategy, Technology, and Analytics to scale your
-            business.
+            We specialize in Social Media, Marketing, and Analytics to scale your business.
           </p>
         </div>
       }
@@ -88,9 +87,8 @@ export default () => (
               <p className="font-semibold text-3xl">Consultation</p>
               <p className="mt-5 text-lg">
                 We do a thorough analysis of your business, your customers, the market, and the
-                economy to find the best solution for your business. What we deliver is a
-                recommendation through a presentation and a final report showing how we came to our
-                conclusion.
+                economy to find the best solution for your business. We deliver a recommendation
+                through a presentation and a final report showing how we came to our conclusion.
               </p>
             </Card>
           </div>
@@ -98,15 +96,16 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-3xl">Implementation</p>
               <p className="mt-5 text-lg">
-                We install your marketing engine by setting up the tools you need manage your
-                growth. We will create and manage campaigns to tell your story through Video, Photo,
-                Copy and Design.
+                We will create the assets you need to tell your story with Video, Photo, Copy and
+                Design. We will connect you with the tools you need to manage your own growth. We
+                can also assist you with Search Engine Optimization, A/B testing, Paid Social, and
+                Influencer Marketing.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-3xl">Long Term Contract</p>
+              <p className="font-semibold text-3xl">Partnership</p>
               <p className="mt-5 text-lg">
                 We will manage your growth. After setting a timeframe that works for you, our team
                 will provide high-touch servicing for your marketing needs. Whether it’s developing
@@ -121,7 +120,7 @@ export default () => (
     <section id="testimonials" className="py-20 lg:py-40 pb-4">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center text-2xl">
-          What customers are saying
+          What Our Clients Say
         </LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
