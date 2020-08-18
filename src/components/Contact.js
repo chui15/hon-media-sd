@@ -67,11 +67,11 @@ class Contact extends Component {
             </label>
           </p>
           <p className="mt-8 text-xl font-light">
-            <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="name">
-              Your name:
+            <label className="text-gray-700 text-lg font-bold mb-2" htmlFor="name">
+              Your Name
               <br />
               <input
-                className="appearance-none border-2 rounded w-1/2 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                className="appearance-none border-2 mt-3 rounded w-3/4 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                 type="text"
                 name="name"
                 onChange={this.handleChange}
@@ -81,10 +81,10 @@ class Contact extends Component {
           </p>
           <p className="mt-8 text-xl font-light">
             <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="email">
-              Your email:
+              Your Email
               <br />
               <input
-                className="appearance-none border-2 rounded w-1/2 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                className="appearance-none border-2 mt-3 rounded w-3/4 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                 type="email"
                 name="email"
                 onChange={this.handleChange}
@@ -94,10 +94,10 @@ class Contact extends Component {
           </p>
           <p className="mt-8 text-xl font-light">
             <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="message">
-              Message:
+              Message
               <br />
               <textarea
-                className="appearance-none border-2 rounded max-h-full w-1/2 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                className="appearance-none border-2 mt-3 rounded max-h-full w-3/4 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                 name="message"
                 onChange={this.handleChange}
                 rows="8"

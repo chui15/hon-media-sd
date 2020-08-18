@@ -7,6 +7,7 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
+import ContactImage from '../svg/Conversation';
 import HeroImage from '../svg/HeroImage2';
 import ProgressImage from '../svg/ProgressImage';
 import TeamworkImage from '../svg/TeamworkImage';
@@ -131,16 +132,18 @@ export default () => (
         </div>
       </div>
     </section>
-    <section
-      id="contact"
-      className="container mx-auto my-20 py-40 bg-gray-200 rounded-lg text-center"
-    >
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
-      <p className="mt-8 text-xl font-light">
-        Tell us about your businesses goals and we’ll tell you what we can do for you. Feel free to
-        ask any questions.
-      </p>
-      <Contact />
-    </section>
+    <SplitSection
+      primarySlot={
+        <section id="contact" className="container mx-auto my-30">
+          <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+          <p className="mt-8 text-xl font-light">
+            Tell us about your businesses goals and we’ll tell you what we can do for you.
+          </p>
+          <p className="mt-8 text-xl font-light">Feel free to ask us any questions.</p>
+          <Contact />
+        </section>
+      }
+      secondarySlot={<ContactImage />}
+    />
   </Layout>
 );
