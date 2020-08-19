@@ -169,8 +169,8 @@ export default () => (
         <section id="contact" className="container mx-auto pt-20 my-30">
           <h3 className="mt-12 text-4xl font-semibold">Ready to grow your business?</h3>
           <p className="mt-8 text-xl font-light">
-            Tell us about your businesses goals and we’ll tell you what we can do for you. Feel free
-            to ask us any questsions.
+            Tell us about your business goals and we’ll tell you what we can do for you. Feel free
+            to ask us any questions.
           </p>
           <Contact />
         </section>
