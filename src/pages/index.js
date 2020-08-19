@@ -15,7 +15,7 @@ import ImplementationImage from '../svg/Implementation';
 import PartnershipImage from '../svg/Partnership';
 import ProgressImage from '../svg/ProgressImage';
 import TeamworkImage from '../svg/TeamworkImage';
-import Christie from './Christie.jpg';
+import Christie from './Christie.png';
 import Steven from './Steven.png';
 import Isabelle from './Isabelle.png';
 
@@ -70,7 +70,7 @@ export default () => (
       <div className="container mx-auto text-center">
         <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Team</h1>
         <div className="mt-12 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
-          <div className="w-full md:w-1/4">
+          <div className="w-full h-full md:w-1/4">
             <StatsBox image={Steven} secondaryText="Steven Phung" />
             <p className="text-gray-600 mx-auto px-4 text-lg">Co-Founder/CEO</p>
             <p className="mt-4 mx-6">

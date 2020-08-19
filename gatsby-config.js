@@ -10,7 +10,11 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'hon-media-sd',
+        short_name: 'hon-media',
         start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#886FDB',
+        display: 'standalone',
         icon: 'src/images/HonLogo.png'
       }
     }
