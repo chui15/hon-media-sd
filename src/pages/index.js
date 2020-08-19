@@ -71,36 +71,40 @@ export default () => (
         <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Team</h1>
         <div className="mt-12 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
           <div className="w-full md:w-1/4">
-            <StatsBox image={Steven} secondaryText="Steven Phung, Co-Founder/CEO" />
-            <p className="mt-4">
+            <StatsBox image={Steven} secondaryText="Steven Phung" />
+            <p className="text-gray-600 mx-auto px-4 text-lg">Co-Founder/CEO</p>
+            <p className="mt-4 mx-6">
               Steven is a UC San Diego graduate who studied International Business & Design
               experienced in Digital Marketing, Design, and Product Management.
             </p>
           </div>
           <div className="w-full md:w-1/4">
-            <StatsBox image={Isabelle} secondaryText="Isabelle Hwang, Co-Founder/CEO" />
-            <p className="mt-4">
+            <StatsBox image={Isabelle} secondaryText="Isabelle Hwang" />
+            <p className="text-gray-600 mx-auto px-4 text-lg">Co-Founder/CEO</p>
+            <p className="mt-4 mx-6">
               Isabelle is a UC San Diego graduate who studied Communication & Business with an
               emphasis in Marketing experienced in Marketing, Client Acquisition, and Management
               Consulting.
             </p>
           </div>
           <div className="w-full md:w-1/4">
-            <StatsBox image={Christie} secondaryText="Christie Hui, Software Engineer" />
-            <p className="mt-4">
+            <StatsBox image={Christie} secondaryText="Christie Hui" />
+            <p className="text-gray-600 mx-auto px-4 text-lg">Software Engineer</p>
+            <p className="mt-4 mx-6">
               Christie is a UC San Diego graduate and current undergraduate student at the
               University of Colorado Boulder pursuing a B.S. in Computer Science experienced in Web
               Development.
             </p>
           </div>
           <div className="w-full md:w-1/4">
-            <StatsBox image={Steven} secondaryText="Devin Lim, Title" />
-            <p className="mt-4">Insert bio about Devin here</p>
+            <StatsBox image={Steven} secondaryText="Devin Lim" />
+            <p className="text-gray-600 mx-auto px-4 text-lg">Title</p>
+            <p className="mt-4 mx-6">Insert bio about Devin here</p>
           </div>
         </div>
       </div>
     </section>
-    <section id="services" className="py-20 -mt-12 lg:pb-40 lg:pt-48">
+    <section id="services" className="py-20 -mt-24 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Our Services</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
