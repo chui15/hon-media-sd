@@ -50,6 +50,11 @@ class Contact extends Component {
   render() {
     return (
       <>
+      <div
+        className="p-12 rounded-lg -ml-3 mt-8 mr-12 md:box-content border border-solid border-gray-200"
+        style={{
+            boxShadow: '0 10px 28px rgba(0,0,0,.08)'
+          }}>
         <form
           name="contact"
           method="POST"
@@ -66,12 +71,12 @@ class Contact extends Component {
               Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />
             </label>
           </p>
-          <p className="mt-8 text-xl font-light">
+          <p className="mr-2 text-xl font-light">
             <label className="text-gray-700 text-lg font-bold mb-2" htmlFor="name">
               Your Name
               <br />
               <input
-                className="appearance-none border-2 mt-3 rounded w-3/4 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                className="appearance-none border-2 mt-3 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                 type="text"
                 name="name"
                 onChange={this.handleChange}
@@ -79,12 +84,12 @@ class Contact extends Component {
               />
             </label>
           </p>
-          <p className="mt-8 text-xl font-light">
+          <p className="mr-2 mt-8 text-xl font-light">
             <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="email">
               Your Email
               <br />
               <input
-                className="appearance-none border-2 mt-3 rounded w-3/4 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                className="appearance-none border-2 mt-3 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                 type="email"
                 name="email"
                 onChange={this.handleChange}
@@ -92,12 +97,12 @@ class Contact extends Component {
               />
             </label>
           </p>
-          <p className="mt-8 text-xl font-light">
+          <p className="mr-2 mt-8 text-xl font-light">
             <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="message">
               Message
               <br />
               <textarea
-                className="appearance-none border-2 mt-3 rounded max-h-full w-3/4 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                className="appearance-none border-2 mt-3 rounded max-h-full w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                 name="message"
                 onChange={this.handleChange}
                 rows="8"
@@ -112,6 +117,7 @@ class Contact extends Component {
             </Button>
           </p>
         </form>
+        </div>
       </>
     );
   }

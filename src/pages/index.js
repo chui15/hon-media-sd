@@ -136,9 +136,9 @@ export default () => (
         <section id="contact" className="container mx-auto my-30">
           <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
           <p className="mt-8 text-xl font-light">
-            Tell us about your businesses goals and we’ll tell you what we can do for you.
+            Tell us about your businesses goals and we’ll tell you what we can do for you. Feel free
+            to ask us any questions.
           </p>
-          <p className="mt-8 text-xl font-light">Feel free to ask us any questions.</p>
           <Contact />
         </section>
       }
