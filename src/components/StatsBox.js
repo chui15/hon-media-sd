@@ -2,8 +2,8 @@ import React from 'react';
 
 const StatsBox = ({ image, secondaryText }) => (
   <>
-    <img className="ml-20 rounded-full pb-5" src={image} alt="member" />
-    <p className="font-semibold mb-6 text-lg">{secondaryText}</p>
+    <img className="rounded-full flex items-center pb-5 mx-auto" src={image} alt="member" />
+    <p className="font-semibold mx-auto px-4 text-lg">{secondaryText}</p>
   </>
 );
 

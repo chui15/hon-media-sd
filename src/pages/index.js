@@ -2,17 +2,20 @@ import React from 'react';
 import Card from '../components/Card';
 import Contact from '../components/Contact';
 import CustomerCard from '../components/CustomerCard';
-import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
+import ConsultationImage from '../svg/Consultation';
 import ContactImage from '../svg/Conversation';
 import HeroImage from '../svg/HeroImage2';
+import ImplementationImage from '../svg/Implementation';
+import PartnershipImage from '../svg/Partnership';
 import ProgressImage from '../svg/ProgressImage';
 import TeamworkImage from '../svg/TeamworkImage';
-import Steven from './steven.jpg';
-import Isabelle from './isabelle.jpg';
+import Christie from './Christie.jpg';
+import Steven from './Steven.png';
+import Isabelle from './Isabelle.png';
 
 export default () => (
   <Layout>
@@ -20,7 +23,7 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Goal</h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
+          <p className="text-xl lg:text-2xl mt-8 mr-12 font-light">
             To make a better San Diego by providing businesses with high quality Consulting and
             Marketing services they need to grow.
           </p>
@@ -35,11 +38,10 @@ export default () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-50">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            Design And Plan Your Business&apos; Growth Strategy
           </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            We specialize in Social Media Strategy, Technology, and Analytics to scale your
-            business.
+          <p className="mt-8 text-2xl font-light leading-relaxed">
+            We specialize in Social Media, Marketing, and Analytics to scale your business.
           </p>
         </div>
       }
@@ -49,7 +51,7 @@ export default () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Our Method</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
+          <p className="mt-8 text-2xl font-light leading-relaxed">
             We use a Human-Centered Design and Data-Driven approach to find the right problem and
             deliver a creative solution that drives growth.
           </p>
@@ -59,16 +61,16 @@ export default () => (
     />
     <section id="about" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Our Team</h2>
-        <div className="flex flex-col sm:flex-row mt-10 lg:px-33">
-          <div className="w-full md:w-1/2">
+        <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Team</h1>
+        <div className="mt-12 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
+          <div className="w-full md:w-1/4">
             <StatsBox image={Steven} secondaryText="Steven Phung, Co-Founder/CEO" />
             <p className="mt-4">
               Steven is a UC San Diego graduate who studied International Business & Design
               experienced in Digital Marketing, Design, and Product Management.
             </p>
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/4">
             <StatsBox image={Isabelle} secondaryText="Isabelle Hwang, Co-Founder/CEO" />
             <p className="mt-4">
               Isabelle is a UC San Diego graduate who studied Communication & Business with an
@@ -76,37 +78,58 @@ export default () => (
               Consulting.
             </p>
           </div>
+          <div className="w-full md:w-1/4">
+            <StatsBox image={Christie} secondaryText="Christie Hui, Software Engineer" />
+            <p className="mt-4">
+              Christie is a UC San Diego graduate and current undergraduate student at the
+              University of Colorado Boulder pursuing a B.S. in Computer Science experienced in Web
+              Development.
+            </p>
+          </div>
+          <div className="w-full md:w-1/4">
+            <StatsBox image={Steven} secondaryText="Devin Lim, Title" />
+            <p className="mt-4">Insert bio about Devin here</p>
+          </div>
         </div>
       </div>
     </section>
-    <section id="services" className="py-20 lg:pb-40 lg:pt-48">
+    <section id="services" className="py-20 -mt-12 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Our Services</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-3xl">Consultation</p>
+              <p className="font-semibold text-3xl">
+                <ConsultationImage className="text-6xl mx-auto mb-4 self-center" />
+                Consultation
+              </p>
               <p className="mt-5 text-lg">
                 We do a thorough analysis of your business, your customers, the market, and the
-                economy to find the best solution for your business. What we deliver is a
-                recommendation through a presentation and a final report showing how we came to our
-                conclusion.
+                economy to find the best solution for your business. We deliver a recommendation
+                through a presentation and a final report showing how we came to our conclusion.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-3xl">Implementation</p>
+              <p className="font-semibold text-3xl">
+                <ImplementationImage className="text-6xl mx-auto mb-4 self-center" />
+                Implementation
+              </p>
               <p className="mt-5 text-lg">
-                We install your marketing engine by setting up the tools you need manage your
-                growth. We will create and manage campaigns to tell your story through Video, Photo,
-                Copy and Design.
+                We will create the assets you need to tell your story with Video, Photo, Copy and
+                Design. We will connect you with the tools you need to manage your own growth. We
+                can also assist you with Search Engine Optimization, A/B testing, Paid Social, and
+                Influencer Marketing.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-3xl">Long Term Contract</p>
+              <p className="font-semibold text-3xl">
+                <PartnershipImage className="text-6xl mx-auto mb-4 self-center" />
+                Partnership
+              </p>
               <p className="mt-5 text-lg">
                 We will manage your growth. After setting a timeframe that works for you, our team
                 will provide high-touch servicing for your marketing needs. Whether it’s developing
@@ -118,12 +141,10 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="testimonials" className="py-20 lg:py-40 pb-4">
+    <section id="testimonials" className="py-10 -mt-12 lg:py-40 pb-4">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center text-2xl">
-          What customers are saying
-        </LabelText>
-        <div className="flex flex-col md:flex-row md:-mx-3">
+        <h2 className="text-3xl lg:text-5xl font-semibold text-center">What Our Clients Say</h2>
+        <div className="flex flex-col md:flex-row md:-mx-3 mt-12">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
               <CustomerCard customer={customer} />
@@ -137,9 +158,9 @@ export default () => (
         <section id="contact" className="container mx-auto my-30">
           <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
           <p className="mt-8 text-xl font-light">
-            Tell us about your businesses goals and we’ll tell you what we can do for you.
+            Tell us about your businesses goals and we’ll tell you what we can do for you. Feel free
+            to ask us any questions.
           </p>
-          <p className="mt-8 text-xl font-light">Feel free to ask us any questions.</p>
           <Contact />
         </section>
       }
