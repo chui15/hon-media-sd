@@ -11,6 +11,8 @@ const Footer = () => (
             <a
               href="https://www.instagram.com/honmediasd/"
               className="text-button hover:text-buttonHover"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Instagram
             </a>
@@ -19,6 +21,8 @@ const Footer = () => (
             <a
               href="https://www.linkedin.com/company/65747941/admin/"
               className="text-button hover:text-buttonHover"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Linkedin
             </a>
@@ -27,6 +31,8 @@ const Footer = () => (
             <a
               href="https://www.facebook.com/HonMediaSD/"
               className="text-button hover:text-buttonHover"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Facebook
             </a>

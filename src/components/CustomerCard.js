@@ -14,6 +14,7 @@ const CustomerCard = ({ customer }) => (
       <div>
         <p>{customer.customerName}</p>
         <p className="text-sm text-gray-600">{customer.customerTitle}</p>
+        <p className="text-sm text-gray-600">{customer.customerTitle2}</p>
       </div>
     </div>
   </Card>

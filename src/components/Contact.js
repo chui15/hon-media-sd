@@ -106,7 +106,7 @@ class Contact extends Component {
                 name="message"
                 onChange={this.handleChange}
                 rows="8"
-                placeholder="Your message here"
+                placeholder="Your message here..."
                 required
               />
             </label>

@@ -4,7 +4,8 @@ export default [
     content:
       'Hon Media came in and offered to help us when we opened during the Pandemic. Thanks to them, we have gotten a clear view of the market environment and have a clear marketing strategy to move forward. They also helped us with developing a content strategy and promotions to grow our presence on Instagram and Facebook. Their quality of work and professionalism is of the best that I have worked with. I would recommend Hon Media to any organization fortunate enough to work with them.',
     customerName: 'Joe Siwoo An',
-    customerTitle: 'CEO; Previously: CEO, Bibigo USA',
+    customerTitle: 'CEO',
+    customerTitle2: 'Previously: CEO, Bibigo USA',
     customerImage: 'https://ricegobanusa.com/wp-content/uploads/2019/09/logo_homepage1.png'
   },
   {

@@ -71,7 +71,11 @@ export default () => (
         <h2 className="text-3xl lg:text-5xl font-semibold">Our Team</h2>
         <div className="mt-16 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
           <div className="w-full h-full md:w-1/4">
-            <StatsBox image={Steven} secondaryText="Steven Phung" />
+            <StatsBox
+              image={Steven}
+              secondaryText="Steven Phung"
+              linkedin="https://www.linkedin.com/in/steven-phung/"
+            />
             <p className="text-gray-600 mx-auto px-4 text-lg">Co-Founder/CEO</p>
             <p className="mt-4 mx-6">
               Steven is a UC San Diego graduate who studied International Business & Design
@@ -79,7 +83,11 @@ export default () => (
             </p>
           </div>
           <div className="w-full md:w-1/4">
-            <StatsBox image={Isabelle} secondaryText="Isabelle Hwang" />
+            <StatsBox
+              image={Isabelle}
+              secondaryText="Isabelle Hwang"
+              linkedin="https://www.linkedin.com/in/isabelhwang/"
+            />
             <p className="text-gray-600 mx-auto px-4 text-lg">Co-Founder/CEO</p>
             <p className="mt-4 mx-6">
               Isabelle is a UC San Diego graduate who studied Communication & Business with an
@@ -88,7 +96,11 @@ export default () => (
             </p>
           </div>
           <div className="w-full md:w-1/4">
-            <StatsBox image={Christie} secondaryText="Christie Hui" />
+            <StatsBox
+              image={Christie}
+              secondaryText="Christie Hui"
+              linkedin="https://www.linkedin.com/in/christie-hui/"
+            />
             <p className="text-gray-600 mx-auto px-4 text-lg">Software Engineer</p>
             <p className="mt-4 mx-6">
               Christie is a UC San Diego graduate and current undergraduate student at the
@@ -97,7 +109,7 @@ export default () => (
             </p>
           </div>
           <div className="w-full md:w-1/4">
-            <StatsBox image={Steven} secondaryText="Devin Lim" />
+            <StatsBox image={Steven} secondaryText="Devin Lim" linkedin="" />
             <p className="text-gray-600 mx-auto px-4 text-lg">Title</p>
             <p className="mt-4 mx-6">Insert bio about Devin here</p>
           </div>
