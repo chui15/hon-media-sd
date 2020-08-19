@@ -2,7 +2,6 @@ import React from 'react';
 import Card from '../components/Card';
 import Contact from '../components/Contact';
 import CustomerCard from '../components/CustomerCard';
-import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
@@ -14,8 +13,9 @@ import ImplementationImage from '../svg/Implementation';
 import PartnershipImage from '../svg/Partnership';
 import ProgressImage from '../svg/ProgressImage';
 import TeamworkImage from '../svg/TeamworkImage';
-import Steven from './steven.jpg';
-import Isabelle from './isabelle.jpg';
+import Christie from './Christie.jpg';
+import Steven from './Steven.png';
+import Isabelle from './Isabelle.png';
 
 export default () => (
   <Layout>
@@ -61,22 +61,34 @@ export default () => (
     />
     <section id="about" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Our Team</h2>
-        <div className="flex flex-col sm:flex-row mt-10 lg:px-33">
-          <div className="w-full md:w-1/2">
+        <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Team</h1>
+        <div className="mt-12 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
+          <div className="w-full md:w-1/4">
             <StatsBox image={Steven} secondaryText="Steven Phung, Co-Founder/CEO" />
             <p className="mt-4">
               Steven is a UC San Diego graduate who studied International Business & Design
               experienced in Digital Marketing, Design, and Product Management.
             </p>
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/4">
             <StatsBox image={Isabelle} secondaryText="Isabelle Hwang, Co-Founder/CEO" />
             <p className="mt-4">
               Isabelle is a UC San Diego graduate who studied Communication & Business with an
               emphasis in Marketing experienced in Marketing, Client Acquisition, and Management
               Consulting.
             </p>
+          </div>
+          <div className="w-full md:w-1/4">
+            <StatsBox image={Christie} secondaryText="Christie Hui, Software Engineer" />
+            <p className="mt-4">
+              Christie is a UC San Diego graduate and current undergraduate student at the
+              University of Colorado Boulder pursuing a B.S. in Computer Science experienced in Web
+              Development.
+            </p>
+          </div>
+          <div className="w-full md:w-1/4">
+            <StatsBox image={Steven} secondaryText="Devin Lim, Title" />
+            <p className="mt-4">Insert bio about Devin here</p>
           </div>
         </div>
       </div>
