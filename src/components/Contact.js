@@ -80,7 +80,7 @@ class Contact extends Component {
                 type="text"
                 name="name"
                 onChange={this.handleChange}
-                placeholder="First and Last Name"
+                placeholder="Enter your name..."
               />
             </label>
           </p>
@@ -93,7 +93,7 @@ class Contact extends Component {
                 type="email"
                 name="email"
                 onChange={this.handleChange}
-                placeholder="i.e. johndoe123@gmail.com"
+                placeholder="Enter your email..."
               />
             </label>
           </p>

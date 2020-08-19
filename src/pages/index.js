@@ -7,8 +7,11 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
+import ConsultationImage from '../svg/Consultation';
 import ContactImage from '../svg/Conversation';
 import HeroImage from '../svg/HeroImage2';
+import ImplementationImage from '../svg/Implementation';
+import PartnershipImage from '../svg/Partnership';
 import ProgressImage from '../svg/ProgressImage';
 import TeamworkImage from '../svg/TeamworkImage';
 import Steven from './steven.jpg';
@@ -20,7 +23,7 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Goal</h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
+          <p className="text-xl lg:text-2xl mt-8 mr-12 font-light">
             To make a better San Diego by providing businesses with high quality Consulting and
             Marketing services they need to grow.
           </p>
@@ -37,7 +40,7 @@ export default () => (
           <h3 className="text-3xl font-semibold leading-tight">
             Design And Plan Your Business&apos; Growth Strategy
           </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
+          <p className="mt-8 text-2xl font-light leading-relaxed">
             We specialize in Social Media, Marketing, and Analytics to scale your business.
           </p>
         </div>
@@ -48,7 +51,7 @@ export default () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Our Method</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
+          <p className="mt-8 text-2xl font-light leading-relaxed">
             We use a Human-Centered Design and Data-Driven approach to find the right problem and
             deliver a creative solution that drives growth.
           </p>
@@ -78,13 +81,16 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="services" className="py-20 lg:pb-40 lg:pt-48">
+    <section id="services" className="py-20 -mt-12 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Our Services</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-3xl">Consultation</p>
+              <p className="font-semibold text-3xl">
+                <ConsultationImage className="text-6xl mb-4 self-center" />
+                Consultation
+              </p>
               <p className="mt-5 text-lg">
                 We do a thorough analysis of your business, your customers, the market, and the
                 economy to find the best solution for your business. We deliver a recommendation
@@ -94,7 +100,10 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-3xl">Implementation</p>
+              <p className="font-semibold text-3xl">
+                <ImplementationImage className="text-6xl mb-4 self-center" />
+                Implementation
+              </p>
               <p className="mt-5 text-lg">
                 We will create the assets you need to tell your story with Video, Photo, Copy and
                 Design. We will connect you with the tools you need to manage your own growth. We
@@ -105,7 +114,10 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-3xl">Partnership</p>
+              <p className="font-semibold text-3xl">
+                <PartnershipImage className="text-6xl mb-4 self-center" />
+                Partnership
+              </p>
               <p className="mt-5 text-lg">
                 We will manage your growth. After setting a timeframe that works for you, our team
                 will provide high-touch servicing for your marketing needs. Whether it’s developing
@@ -117,12 +129,10 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="testimonials" className="py-20 lg:py-40 pb-4">
+    <section id="testimonials" className="py-10 -mt-12 lg:py-40 pb-4">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center text-2xl">
-          What Our Clients Say
-        </LabelText>
-        <div className="flex flex-col md:flex-row md:-mx-3">
+        <h2 className="text-3xl lg:text-5xl font-semibold text-center">What Our Clients Say</h2>
+        <div className="flex flex-col md:flex-row md:-mx-3 mt-12">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
               <CustomerCard customer={customer} />
