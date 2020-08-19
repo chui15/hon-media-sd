@@ -14,9 +14,8 @@ const Button = ({ children, className = '', size }) => {
         ${sizes[size] || sizes.default}
         ${className}
         border-2
-        border-purple-400
-        bg-purple-400
-        hover:border-purple-300
+        bg-button
+        hover:bg-buttonHover
         rounded-full
         text-white
     `}

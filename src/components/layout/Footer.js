@@ -8,13 +8,28 @@ const Footer = () => (
         <ul className="mt-4 leading-loose">
           <i className="fa fa-instagram" aria-hidden="true" />
           <li>
-            <a href="https://www.instagram.com/honmediasd/">Instagram</a>
+            <a
+              href="https://www.instagram.com/honmediasd/"
+              className="text-button hover:text-buttonHover"
+            >
+              Instagram
+            </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/company/65747941/admin/">Linkedin</a>
+            <a
+              href="https://www.linkedin.com/company/65747941/admin/"
+              className="text-button hover:text-buttonHover"
+            >
+              Linkedin
+            </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/HonMediaSD/">Facebook</a>
+            <a
+              href="https://www.facebook.com/HonMediaSD/"
+              className="text-button hover:text-buttonHover"
+            >
+              Facebook
+            </a>
           </li>
         </ul>
       </div>

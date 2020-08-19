@@ -18,16 +18,16 @@ const Header = () => (
         </AnchorLink>
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4 text-black hover:text-purple-700" href="#about">
+        <AnchorLink className="px-4 text-black hover:text-button" href="#about">
           About Us
         </AnchorLink>
-        <AnchorLink className="px-4 text-black hover:text-purple-700" href="#services">
+        <AnchorLink className="px-4 text-black hover:text-button" href="#services">
           Services
         </AnchorLink>
-        <AnchorLink className="px-4 text-black hover:text-purple-700" href="#testimonials">
+        <AnchorLink className="px-4 text-black hover:text-button" href="#testimonials">
           Clients
         </AnchorLink>
-        <AnchorLink className="px-4 text-black hover:text-purple-700" href="#contact">
+        <AnchorLink className="px-4 text-black hover:text-button" href="#contact">
           Contact
         </AnchorLink>
       </div>
