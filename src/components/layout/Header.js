@@ -9,9 +9,6 @@ const Header = () => (
         <AnchorLink className="w-12 ml-5" href="#top">
           <LogoIcon />
         </AnchorLink>
-        {/* <AnchorLink className="px-1 text-black" href="#top">
-          Hon Media SD
-        </AnchorLink> */}
       </div>
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4 text-black hover:text-purple-700" href="#about">

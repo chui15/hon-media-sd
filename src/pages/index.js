@@ -1,4 +1,6 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import Button from '../components/Button';
 import Card from '../components/Card';
 import Contact from '../components/Contact';
 import CustomerCard from '../components/CustomerCard';
@@ -26,6 +28,11 @@ export default () => (
           <p className="text-xl lg:text-2xl mt-8 mr-12 font-light">
             To make a better San Diego by providing businesses with high quality Consulting and
             Marketing services they need to grow.
+          </p>
+          <p className="mt-24 text-xl font-light">
+            <AnchorLink href="#services">
+              <Button>See Our Services</Button>
+            </AnchorLink>
           </p>
         </div>
         <div className="lg:w-1/2">
