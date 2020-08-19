@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#ffffff',
         theme_color: '#886FDB',
         display: 'standalone',
-        icon: 'src/images/HonLogo.png'
+        icon: 'src/images/HonLogo2.png'
       }
     }
   ]
