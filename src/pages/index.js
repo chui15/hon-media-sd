@@ -100,7 +100,7 @@ export default () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-3xl">
-                <ConsultationImage className="text-6xl mb-4 self-center" />
+                <ConsultationImage className="text-6xl mx-auto mb-4 self-center" />
                 Consultation
               </p>
               <p className="mt-5 text-lg">
@@ -113,7 +113,7 @@ export default () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-3xl">
-                <ImplementationImage className="text-6xl mb-4 self-center" />
+                <ImplementationImage className="text-6xl mx-auto mb-4 self-center" />
                 Implementation
               </p>
               <p className="mt-5 text-lg">
@@ -127,7 +127,7 @@ export default () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-3xl">
-                <PartnershipImage className="text-6xl mb-4 self-center" />
+                <PartnershipImage className="text-6xl mx-auto mb-4 self-center" />
                 Partnership
               </p>
               <p className="mt-5 text-lg">
