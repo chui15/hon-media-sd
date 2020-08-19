@@ -1,6 +1,6 @@
-# HON Media SD
+# Hon Media SD
 
-HON Media SD is a static site developed using GatsbyJS and TailwindCSS to highlight services offered by an independent consulting group.
+Hon Media SD is a static site developed using GatsbyJS and TailwindCSS to highlight services offered by an independent consulting group.
 
 ## Technologies Used
 
