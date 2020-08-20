@@ -7,7 +7,7 @@ const Header = () => (
   <header className="sticky top-0 bg-white shadow">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-3xl">
-        <AnchorLink className="-ml-1.5" href="#top">
+        <AnchorLink className="-ml-0.5" href="#top">
           {/* <HonLogo style={{ height: '40px', width: '55px' }} /> */}
           <img
             className="mx-auto"
