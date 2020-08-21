@@ -16,8 +16,9 @@ import PartnershipImage from '../svg/Partnership';
 import ProgressImage from '../svg/ProgressImage';
 import TeamworkImage from '../svg/TeamworkImage';
 import Christie from './Christie.png';
-import Steven from './Steven.png';
+import Devin from './Devin.jpg';
 import Isabelle from './Isabelle.png';
+import Steven from './Steven.png';
 
 export default () => (
   <Layout>
@@ -109,9 +110,17 @@ export default () => (
             </p>
           </div>
           <div className="w-full md:w-1/4">
-            <StatsBox image={Steven} secondaryText="Devin Lim" linkedin="" />
+            <StatsBox
+              image={Devin}
+              secondaryText="Devin Lim"
+              linkedin="https://www.linkedin.com/in/devinjacoblim/"
+            />
             <p className="text-gray-600 mx-auto px-4 text-lg">Title</p>
-            <p className="mt-4 mx-6">Insert bio about Devin here</p>
+            <p className="mt-4 mx-6">
+              Devin is a UCLA alumni who studied Entrepreneurship and Geospatial Information Systems
+              and Technology experienced in Business Development, Partner Development, Brand
+              Strategy, and Growth Strategy.
+            </p>
           </div>
         </div>
       </div>
