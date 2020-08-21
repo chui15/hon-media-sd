@@ -8,10 +8,10 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
-import ConsultationImage from '../svg/Consultation';
 import ContactImage from '../svg/Conversation';
 import HeroImage from '../svg/HeroImage2';
 import ImplementationImage from '../svg/Implementation';
+import MeetingImage from '../svg/Meeting';
 import PartnershipImage from '../svg/Partnership';
 import ProgressImage from '../svg/ProgressImage';
 import TeamworkImage from '../svg/TeamworkImage';
@@ -123,7 +123,7 @@ export default () => (
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <p className="font-semibold text-3xl">
-                <ConsultationImage className="text-6xl mx-auto mb-4 self-center" />
+                <MeetingImage className="text-6xl mx-auto mb-4 self-center" />
                 Consultation
               </p>
               <p className="mt-5 text-lg">

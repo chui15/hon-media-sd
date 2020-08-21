@@ -1,6 +1,5 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-// import HonLogo from '../../svg/HonLogo4';
 import LogoPNG from '../../images/HonLogo3.png';
 
 const Header = () => (
@@ -8,7 +7,6 @@ const Header = () => (
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-3xl">
         <AnchorLink className="-ml-0.5" href="#top">
-          {/* <HonLogo style={{ height: '40px', width: '55px' }} /> */}
           <img
             className="mx-auto"
             src={LogoPNG}
