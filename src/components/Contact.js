@@ -58,7 +58,7 @@ class Contact extends Component {
         <form
           name="contact"
           method="POST"
-          action="/success/"
+          action="thank-you"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           ref={this.Contact}
