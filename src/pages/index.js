@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Button from '../components/Button';
 import Card from '../components/Card';
@@ -22,6 +23,10 @@ import Steven from './Steven.png';
 
 export default () => (
   <Layout>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Hon Media SD</title>
+    </Helmet>
     <section className="pt-20 md:pt-40" id="top">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">

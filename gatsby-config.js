@@ -17,6 +17,7 @@ module.exports = {
         display: 'standalone',
         icon: 'src/images/HonLogo2.png'
       }
-    }
+    },
+    `gatsby-plugin-react-helmet`
   ]
 };
