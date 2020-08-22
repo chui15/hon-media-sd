@@ -16,7 +16,7 @@ import PartnershipImage from '../svg/Partnership';
 import ProgressImage from '../svg/ProgressImage';
 import TeamworkImage from '../svg/TeamworkImage';
 import Christie from './Christie.png';
-import Devin from './Devin.jpg';
+import Devin from './Devin.png';
 import Isabelle from './Isabelle.png';
 import Steven from './Steven.png';
 
@@ -115,10 +115,10 @@ export default () => (
               secondaryText="Devin Lim"
               linkedin="https://www.linkedin.com/in/devinjacoblim/"
             />
-            <p className="text-gray-600 mx-auto px-4 text-lg">Title</p>
+            <p className="text-gray-600 mx-auto px-4 text-lg">Growth Strategist</p>
             <p className="mt-4 mx-6">
               Devin is a UCLA alumni who studied Entrepreneurship and Geospatial Information Systems
-              and Technology experienced in Business Development, Partner Development, Brand
+              and Technology. He is experienced in Business Development, Partner Development, Brand
               Strategy, and Growth Strategy.
             </p>
           </div>
