@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { Component } from 'react';
+import { navigate } from 'gatsby';
 import Button from './Button';
 
 class Contact extends Component {
@@ -39,6 +40,7 @@ class Contact extends Component {
         console.log(`${JSON.stringify(response, null, 2)}`)
         console.log("====================================")
         this.Contact.current.reset()
+        navigate(form.getAttribute("action"))
       })
       .catch(error => {
         console.log("====================================")
