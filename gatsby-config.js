@@ -18,6 +18,14 @@ module.exports = {
         icon: 'src/images/HonLogo2.png'
       }
     },
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-scroll-reveal`,
+      options: {
+        threshold: 1,
+        once: true,
+        disable: false
+      }
+    }
   ]
 };
