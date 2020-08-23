@@ -31,17 +31,17 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Goal</h1>
-          <p className="text-xl lg:text-2xl mt-8 mr-12 font-light">
+          <p className="text-xl lg:text-2xl mt-8 lg:mr-12 font-light">
             To make a better San Diego by providing businesses with high quality Consulting and
             Marketing services they need to grow.
           </p>
-          <p className="mt-24 text-xl font-light">
+          <p className="mt-12 mb-12 lg:mt-24 text-xl font-light">
             <AnchorLink href="#services">
               <Button>See Our Services</Button>
             </AnchorLink>
           </p>
         </div>
-        <div className="lg:w-1/2">
+        <div className="lg:mt-0 lg:w-1/2">
           <HeroImage />
         </div>
       </div>
@@ -83,7 +83,7 @@ export default () => (
               linkedin="https://www.linkedin.com/in/steven-phung/"
             />
             <p className="text-gray-600 mx-auto px-4 text-lg">Co-Founder/CEO</p>
-            <p className="mt-4 mx-6">
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
               Steven is a UC San Diego graduate who studied International Business & Design
               experienced in Digital Marketing, Design, and Product Management.
             </p>
@@ -95,7 +95,7 @@ export default () => (
               linkedin="https://www.linkedin.com/in/isabelhwang/"
             />
             <p className="text-gray-600 mx-auto px-4 text-lg">Co-Founder/CEO</p>
-            <p className="mt-4 mx-6">
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
               Isabelle is a UC San Diego graduate who studied Communication & Business with an
               emphasis in Marketing experienced in Marketing, Client Acquisition, and Management
               Consulting.
@@ -108,7 +108,7 @@ export default () => (
               linkedin="https://www.linkedin.com/in/christie-hui/"
             />
             <p className="text-gray-600 mx-auto px-4 text-lg">Software Engineer</p>
-            <p className="mt-4 mx-6">
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
               Christie is a UC San Diego graduate and current undergraduate student at the
               University of Colorado Boulder pursuing a B.S. in Computer Science experienced in Web
               Development.
@@ -121,7 +121,7 @@ export default () => (
               linkedin="https://www.linkedin.com/in/devinjacoblim/"
             />
             <p className="text-gray-600 mx-auto px-4 text-lg">Growth Strategist</p>
-            <p className="mt-4 mx-6">
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
               Devin is a UCLA alumni who studied Entrepreneurship and Geospatial Information Systems
               and Technology. He is experienced in Business Development, Partner Development, Brand
               Strategy, and Growth Strategy.
