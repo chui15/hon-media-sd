@@ -1,4 +1,5 @@
 import React from 'react';
+import sal from 'sal.js';
 import { Helmet } from 'react-helmet';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Button from '../components/Button';
@@ -27,7 +28,7 @@ export default () => (
       <meta charSet="utf-8" />
       <title>Hon Media SD</title>
     </Helmet>
-    <section className="pt-20 md:pt-40" data-sal="slide-up" data-sal-easing="ease" id="top">
+    <section className="pt-20 md:pt-40" id="top">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Goal</h1>
