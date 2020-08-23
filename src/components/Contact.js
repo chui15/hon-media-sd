@@ -53,7 +53,7 @@ class Contact extends Component {
     return (
       <>
       <div
-        className="p-12 rounded-lg -ml-3 mt-8 mr-12 md:box-content border border-solid border-gray-200"
+        className="p-12 mt-6 -mx-12 rounded-lg lg:-ml-3 lg:mt-8 lg:mr-12 md:box-content border border-solid border-gray-200"
         style={{
             boxShadow: '0 10px 28px rgba(0,0,0,.08)'
           }}>
