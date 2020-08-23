@@ -73,7 +73,13 @@ export default () => (
       }
       secondarySlot={<ProgressImage />}
     />
-    <section id="about" className="py-20 lg:pt-32" data-sal="slide-up" data-sal-easing="ease">
+    <section
+      id="about"
+      className="py-20 lg:pt-32"
+      data-sal="slide-up"
+      data-sal-delay="100"
+      data-sal-easing="ease"
+    >
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Our Team</h2>
         <div className="mt-16 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
@@ -136,6 +142,7 @@ export default () => (
       className="py-20 lg:pb-40 lg:pt-32"
       data-sal="slide-up"
       data-sal-easing="ease"
+      data-sal-delay="100"
     >
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Our Services</h2>
@@ -189,6 +196,7 @@ export default () => (
       className="py-10 -mt-12 lg:py-32 pb-4"
       data-sal="slide-up"
       data-sal-easing="ease"
+      data-sal-delay="100"
     >
       <div className="container mx-auto">
         <h2 className="text-3xl lg:text-5xl font-semibold text-center">What Our Clients Say</h2>
@@ -208,6 +216,7 @@ export default () => (
           className="container mx-auto pt-20 my-30"
           data-sal="slide-up"
           data-sal-easing="ease"
+          data-sal-delay="100"
         >
           <h3 className="mt-12 text-4xl font-semibold">Ready to grow your business?</h3>
           <p className="mt-8 text-xl font-light">
