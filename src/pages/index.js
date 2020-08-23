@@ -27,7 +27,13 @@ export default () => (
       <meta charSet="utf-8" />
       <title>Hon Media SD</title>
     </Helmet>
-    <section className="pt-20 md:pt-40" id="top">
+    <section
+      className="pt-20 md:pt-40"
+      data-sal="slide-up"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+      id="top"
+    >
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Goal</h1>
@@ -72,7 +78,13 @@ export default () => (
       }
       secondarySlot={<ProgressImage />}
     />
-    <section id="about" className="py-20 lg:pt-32">
+    <section
+      id="about"
+      className="py-20 lg:pt-32"
+      data-sal="slide-up"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+    >
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Our Team</h2>
         <div className="mt-16 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
@@ -130,7 +142,13 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="services" className="py-20 lg:pb-40 lg:pt-32">
+    <section
+      id="services"
+      className="py-20 lg:pb-40 lg:pt-32"
+      data-sal="slide-up"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+    >
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Our Services</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
@@ -178,7 +196,13 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="testimonials" className="py-10 -mt-12 lg:py-32 pb-4">
+    <section
+      id="testimonials"
+      className="py-10 -mt-12 lg:py-32 pb-4"
+      data-sal="slide-up"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+    >
       <div className="container mx-auto">
         <h2 className="text-3xl lg:text-5xl font-semibold text-center">What Our Clients Say</h2>
         <div className="flex flex-col md:flex-row md:-mx-3 mt-12">
@@ -192,7 +216,13 @@ export default () => (
     </section>
     <SplitSection
       primarySlot={
-        <section id="contact" className="container mx-auto pt-20 my-30">
+        <section
+          id="contact"
+          className="container mx-auto pt-20 my-30"
+          data-sal="slide-up"
+          data-sal-delay="300"
+          data-sal-easing="ease"
+        >
           <h3 className="mt-12 text-4xl font-semibold">Ready to grow your business?</h3>
           <p className="mt-8 text-xl font-light">
             Tell us about your business goals and we’ll tell you what we can do for you. Feel free
