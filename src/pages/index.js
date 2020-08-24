@@ -26,7 +26,7 @@ export default () => (
   <Layout>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Hon Media SD</title>
+      <title>Hon Media</title>
     </Helmet>
     <section className="pt-20 md:pt-40" id="top">
       <div className="container mx-auto px-8 lg:flex">
@@ -91,7 +91,7 @@ export default () => (
             />
             <p className="text-gray-600 mx-auto px-4 text-lg">Co-Founder/CEO</p>
             <p className="mt-4 mx-6 mb-8 lg:mb-0">
-              Steven is a UC San Diego graduate who studied International Business & Design
+              Steven is a UC San Diego alumni who studied International Business & Design
               experienced in Digital Marketing, Design, and Product Management.
             </p>
           </div>
@@ -101,9 +101,9 @@ export default () => (
               secondaryText="Isabelle Hwang"
               linkedin="https://www.linkedin.com/in/isabelhwang/"
             />
-            <p className="text-gray-600 mx-auto px-4 text-lg">Co-Founder/CEO</p>
+            <p className="text-gray-600 mx-auto px-4 text-lg">Co-Founder/COO</p>
             <p className="mt-4 mx-6 mb-8 lg:mb-0">
-              Isabelle is a UC San Diego graduate who studied Communication & Business with an
+              Isabelle is a UC San Diego alumni who studied Communication & Business with an
               emphasis in Marketing experienced in Marketing, Client Acquisition, and Management
               Consulting.
             </p>
@@ -114,11 +114,10 @@ export default () => (
               secondaryText="Christie Hui"
               linkedin="https://www.linkedin.com/in/christie-hui/"
             />
-            <p className="text-gray-600 mx-auto px-4 text-lg">Software Engineer</p>
+            <p className="text-gray-600 mx-auto px-4 text-lg">Web Developer</p>
             <p className="mt-4 mx-6 mb-8 lg:mb-0">
-              Christie is a UC San Diego graduate and current undergraduate student at the
-              University of Colorado Boulder pursuing a B.S. in Computer Science experienced in Web
-              Development.
+              Christie is a UC San Diego alumni and current student at the University of Colorado
+              Boulder pursuing a B.S. in Computer Science experienced in Web Development.
             </p>
           </div>
           <div className="w-full md:w-1/4">
