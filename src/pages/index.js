@@ -1,26 +1,26 @@
-import React from 'react';
-import sal from 'sal.js';
-import { Helmet } from 'react-helmet';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Button from '../components/Button';
-import Card from '../components/Card';
-import Contact from '../components/Contact';
-import CustomerCard from '../components/CustomerCard';
-import Layout from '../components/layout/Layout';
-import SplitSection from '../components/SplitSection';
-import StatsBox from '../components/StatsBox';
-import customerData from '../data/customer-data';
-import ContactImage from '../svg/Conversation';
-import HeroImage from '../svg/HeroImage2';
-import ImplementationImage from '../svg/Implementation';
-import MeetingImage from '../svg/Meeting';
-import PartnershipImage from '../svg/Partnership';
-import ProgressImage from '../svg/ProgressImage';
-import TeamworkImage from '../svg/TeamworkImage';
-import Christie from './Christie.png';
-import Devin from './Devin.png';
-import Isabelle from './Isabelle.png';
-import Steven from './Steven.png';
+import React from 'react'
+import sal from 'sal.js'
+import { Helmet } from 'react-helmet'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Button from '../components/Button'
+import Card from '../components/Card'
+import Contact from '../components/Contact'
+import CustomerCard from '../components/CustomerCard'
+import Layout from '../components/layout/Layout'
+import SplitSection from '../components/SplitSection'
+import StatsBox from '../components/StatsBox'
+import customerData from '../data/customer-data'
+import ContactImage from '../svg/Conversation'
+import HeroImage from '../svg/HeroImage2'
+import ImplementationImage from '../svg/Implementation'
+import MeetingImage from '../svg/Meeting'
+import PartnershipImage from '../svg/Partnership'
+import ProgressImage from '../svg/ProgressImage'
+import TeamworkImage from '../svg/TeamworkImage'
+import Christie from './Christie.png'
+import Devin from './Devin.png'
+import Isabelle from './Isabelle.png'
+import Steven from './Steven.png'
 
 export default () => (
   <Layout>
@@ -168,8 +168,8 @@ export default () => (
               <p className="mt-5 text-lg">
                 We will create the assets you need to tell your story with Video, Photo, Copy and
                 Design. We will connect you with the tools you need to manage your own growth. We
-                can also assist you with Search Engine Optimization, A/B testing, Paid Social, and
-                Influencer Marketing.
+                can also assist you with building a website, Search Engine Optimization, A/B
+                testing, Paid Social, and Influencer Marketing.
               </p>
             </Card>
           </div>
@@ -228,4 +228,4 @@ export default () => (
       secondarySlot={<ContactImage className="mt-16 ml-8" />}
     />
   </Layout>
-);
+)
