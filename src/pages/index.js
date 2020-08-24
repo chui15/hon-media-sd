@@ -110,18 +110,6 @@ export default () => (
           </div>
           <div className="w-full md:w-1/4">
             <StatsBox
-              image={Christie}
-              secondaryText="Christie Hui"
-              linkedin="https://www.linkedin.com/in/christie-hui/"
-            />
-            <p className="text-gray-600 mx-auto px-4 text-lg">Web Developer</p>
-            <p className="mt-4 mx-6 mb-8 lg:mb-0">
-              Christie is a UC San Diego alumni and current student at the University of Colorado
-              Boulder pursuing a B.S. in Computer Science experienced in Web Development.
-            </p>
-          </div>
-          <div className="w-full md:w-1/4">
-            <StatsBox
               image={Devin}
               secondaryText="Devin Lim"
               linkedin="https://www.linkedin.com/in/devinjacoblim/"
@@ -131,6 +119,18 @@ export default () => (
               Devin is a UCLA alumni who studied Entrepreneurship and Geospatial Information Systems
               and Technology. He is experienced in Business Development, Partner Development, Brand
               Strategy, and Growth Strategy.
+            </p>
+          </div>
+          <div className="w-full md:w-1/4">
+            <StatsBox
+              image={Christie}
+              secondaryText="Christie Hui"
+              linkedin="https://www.linkedin.com/in/christie-hui/"
+            />
+            <p className="text-gray-600 mx-auto px-4 text-lg">Web Developer</p>
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
+              Christie is a UC San Diego alumni and current student at the University of Colorado
+              Boulder pursuing a B.S. in Computer Science experienced in Web Development.
             </p>
           </div>
         </div>
