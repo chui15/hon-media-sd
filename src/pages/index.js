@@ -33,8 +33,8 @@ export default () => (
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Our Goal</h1>
           <p className="text-xl lg:text-2xl mt-8 lg:mr-12 font-light">
-            To make a better San Diego by providing businesses with high quality Consulting and
-            Marketing services they need to grow.
+            Make a better San Diego. We provide local businesses with high quality Marketing and
+            Consulting services to maintain growth in the digital age.
           </p>
           <p className="mt-12 mb-12 lg:mt-24 text-xl font-light">
             <AnchorLink href="#services">
@@ -219,8 +219,8 @@ export default () => (
         >
           <h3 className="mt-12 text-4xl font-semibold">Ready to grow your business?</h3>
           <p className="mt-8 text-xl font-light">
-            Tell us about your business goals and we’ll tell you what we can do for you. Feel free
-            to ask us any questions.
+            Tell us about your business goals and we’ll help you achieve them. Feel free to ask us
+            any questions.
           </p>
           <Contact />
         </section>
