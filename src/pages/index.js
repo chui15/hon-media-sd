@@ -17,6 +17,7 @@ import MeetingImage from '../svg/Meeting'
 import PartnershipImage from '../svg/Partnership'
 import ProgressImage from '../svg/ProgressImage'
 import TeamworkImage from '../svg/TeamworkImage'
+import Brian from './Brian.png'
 import Christie from './Christie.png'
 import Devin from './Devin.png'
 import Isabelle from './Isabelle.png'
@@ -83,7 +84,7 @@ export default () => (
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Our Team</h2>
         <div className="mt-16 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
-          <div className="w-full h-full md:w-1/4">
+          <div className="w-full h-full md:w-1/3">
             <StatsBox
               image={Steven}
               secondaryText="Steven Phung"
@@ -95,7 +96,7 @@ export default () => (
               experienced in Digital Marketing, Design, and Product Management.
             </p>
           </div>
-          <div className="w-full md:w-1/4">
+          <div className="w-full md:w-1/3">
             <StatsBox
               image={Isabelle}
               secondaryText="Isabelle Hwang"
@@ -108,7 +109,7 @@ export default () => (
               Consulting.
             </p>
           </div>
-          <div className="w-full md:w-1/4">
+          <div className="w-full md:w-1/3">
             <StatsBox
               image={Devin}
               secondaryText="Devin Lim"
@@ -121,7 +122,9 @@ export default () => (
               Strategy, and Growth Strategy.
             </p>
           </div>
-          <div className="w-full md:w-1/4">
+        </div>
+        <div className="mt-16 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
+          <div className="w-full md:w-1/3">
             <StatsBox
               image={Christie}
               secondaryText="Christie Hui"
@@ -131,6 +134,17 @@ export default () => (
             <p className="mt-4 mx-6 mb-8 lg:mb-0">
               Christie is a UC San Diego alumni and current student at the University of Colorado
               Boulder pursuing a B.S. in Computer Science experienced in Web Development.
+            </p>
+          </div>
+          <div className="w-full md:w-1/3">
+            <StatsBox
+              image={Brian}
+              secondaryText="Brian Kim"
+              linkedin="https://www.linkedin.com/in/briansjkim/"
+            />
+            <p className="text-gray-600 mx-auto px-4 text-lg">Web Developer</p>
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
+              Brian is a UC San Diego alumni experienced in Application and Web Development.
             </p>
           </div>
         </div>
