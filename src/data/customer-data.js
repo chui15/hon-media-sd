@@ -1,5 +1,13 @@
 export default [
   {
+    title: 'Naicha Tea',
+    content:
+    "Hon Media team was great to work with and had creative video ideas to demonstrate my company's mission. Steven was great at communicating with following up, meeting deadlines, and creating the storyboard. Definitely would recommend working with this team again.",
+    customerName: 'Wesley Lin',
+    customerTitle: 'CEO',
+    customerImage: 'https://cdn.shopify.com/s/files/1/2809/8798/files/output-onlinepngtools_180x.png?v=1598741484'
+  },
+  {
     title: 'Rice Goban (La Jolla)',
     content:
       'Hon Media came in and offered to help us when we opened during the Pandemic. Thanks to them, we have gotten a clear view of the market environment and have a clear marketing strategy to move forward. They also helped us with developing a content strategy and promotions to grow our presence on Instagram and Facebook. Their quality of work and professionalism is of the best that I have worked with. I would recommend Hon Media to any organization fortunate enough to work with them.',

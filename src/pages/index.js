@@ -251,7 +251,7 @@ export default () => (
     >
       <div className="container mx-auto">
         <h2 className="text-3xl lg:text-5xl font-semibold text-center">What Our Clients Say</h2>
-        <div className="flex flex-col md:flex-row md:-mx-3 mt-12">
+        <div className="flex-wrap flex-col md:flex-row md:-mx-3 mt-12">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
               <CustomerCard customer={customer} />
