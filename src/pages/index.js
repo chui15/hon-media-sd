@@ -158,7 +158,7 @@ export default () => (
             <p className="text-gray-600 mx-auto px-4 text-lg">Web Developer</p>
             <p className="mt-4 mx-6 mb-8 lg:mb-0">
               Christie is a current student at the University of Colorado
-              Boulder pursuing a B.S. in Computer Science experienced in Web Development.
+              Boulder pursuing a B.S. in Computer Science, experienced in Web Development.
             </p>
           </div>
         </div>
