@@ -17,11 +17,14 @@ import MeetingImage from '../svg/Meeting'
 import PartnershipImage from '../svg/Partnership'
 import ProgressImage from '../svg/ProgressImage'
 import TeamworkImage from '../svg/TeamworkImage'
+import Alex from './Alex.png'
 import Brian from './Brian.png'
 import Christie from './Christie.png'
 import Devin from './Devin.png'
 import Isabelle from './Isabelle.png'
+import Josh from './Josh.png'
 import Steven from './Steven.png'
+import Victor from './Victor.png'
 
 export default () => (
   <Layout>
@@ -126,16 +129,40 @@ export default () => (
         <div className="mt-16 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
           <div className="w-full md:w-1/3">
             <StatsBox
+              image={Victor}
+              secondaryText="Victor Phung"
+              linkedin="https://www.linkedin.com/in/victor-phung/"
+            />
+            <p className="text-gray-600 mx-auto px-4 text-lg">Growth Strategist</p>
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
+              Victor is a UC San Diego alumni who studied computer engineering and is experienced in Design, physical prototyping and all things hardware.
+            </p>
+          </div>
+          <div className="w-full md:w-1/3">
+            <StatsBox
+              image={Alex}
+              secondaryText="Alex Tov"
+              linkedin="https://www.linkedin.com/in/alex-tov-32047a184/"
+            />
+            <p className="text-gray-600 mx-auto px-4 text-lg">UI/UX Designer</p>
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
+            Alex is a UC San Diego alumni who studied Cognitive Science with an emphasis in Human Computer Interaction, experienced in UI/UX Design and Design Thinking.
+            </p>
+          </div>
+          <div className="w-full md:w-1/3">
+            <StatsBox
               image={Christie}
               secondaryText="Christie Hui"
               linkedin="https://www.linkedin.com/in/christie-hui/"
             />
             <p className="text-gray-600 mx-auto px-4 text-lg">Web Developer</p>
             <p className="mt-4 mx-6 mb-8 lg:mb-0">
-              Christie is a UC San Diego alumni and current student at the University of Colorado
+              Christie is a current student at the University of Colorado
               Boulder pursuing a B.S. in Computer Science experienced in Web Development.
             </p>
           </div>
+        </div>
+        <div className="mt-16 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
           <div className="w-full md:w-1/3">
             <StatsBox
               image={Brian}
@@ -145,6 +172,17 @@ export default () => (
             <p className="text-gray-600 mx-auto px-4 text-lg">Web Developer</p>
             <p className="mt-4 mx-6 mb-8 lg:mb-0">
               Brian is a UC San Diego alumni experienced in Application and Web Development.
+            </p>
+          </div>
+          <div className="w-full md:w-1/3">
+            <StatsBox
+              image={Josh}
+              secondaryText="Joshua Kim"
+              linkedin="https://www.linkedin.com/in/joshuaskkim/"
+            />
+            <p className="text-gray-600 mx-auto px-4 text-lg">Web Developer</p>
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
+              Joshua is a UC San Diego alumni experienced in Web Development.
             </p>
           </div>
         </div>
