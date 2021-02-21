@@ -9,6 +9,16 @@ const Footer = () => (
           <i className="fa fa-instagram" aria-hidden="true" />
           <li>
             <a
+              href="https://blog.hon-media.com"
+              className="text-button hover:text-buttonHover"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Our Blog
+            </a>
+          </li>
+          <li>
+            <a
               href="https://www.instagram.com/honmediasd/"
               className="text-button hover:text-buttonHover"
               target="_blank"
