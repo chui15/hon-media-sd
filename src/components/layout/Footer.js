@@ -1,4 +1,5 @@
 import React from 'react';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 const Footer = () => (
   <footer className="container mx-auto py-16 px-3 mt-16 mb-8 text-gray-800">
@@ -8,44 +9,44 @@ const Footer = () => (
         <ul className="mt-4 leading-loose">
           <i className="fa fa-instagram" aria-hidden="true" />
           <li>
-            <a
+            <OutboundLink
               href="https://blog.hon-media.com"
               className="text-button hover:text-buttonHover"
               target="_blank"
               rel="noopener noreferrer"
             >
               Our Blog
-            </a>
+            </OutboundLink>
           </li>
           <li>
-            <a
+            <OutboundLink
               href="https://www.instagram.com/honmediasd/"
               className="text-button hover:text-buttonHover"
               target="_blank"
               rel="noopener noreferrer"
             >
               Instagram
-            </a>
+            </OutboundLink>
           </li>
           <li>
-            <a
+            <OutboundLink
               href="https://www.linkedin.com/company/65747941/admin/"
               className="text-button hover:text-buttonHover"
               target="_blank"
               rel="noopener noreferrer"
             >
               Linkedin
-            </a>
+            </OutboundLink>
           </li>
           <li>
-            <a
+            <OutboundLink
               href="https://www.facebook.com/HonMediaSD/"
               className="text-button hover:text-buttonHover"
               target="_blank"
               rel="noopener noreferrer"
             >
               Facebook
-            </a>
+            </OutboundLink>
           </li>
         </ul>
       </div>

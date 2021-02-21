@@ -1,6 +1,21 @@
 module.exports = {
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "G-4REH10130V",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        // Enables Google Optimize using your container Id
+        optimizeId: "GTM-WLXMMRW",
+      },
+    },
+    {
       resolve: `gatsby-theme-codebushi`,
       options: {
         tailwindConfig: `tailwind.config.js`
