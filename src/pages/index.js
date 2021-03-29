@@ -19,7 +19,8 @@ import ProgressImage from '../svg/ProgressImage'
 import TeamworkImage from '../svg/TeamworkImage'
 import Alex from './Alex.png'
 import Christie from './Christie.png'
-import Isabelle from './Isabelle.png'
+import Isabelle from './Isabelle2.png'
+import Jeong from './Jeong.png'
 import Steven from './Steven.png'
 import Victor from './Victor.png'
 
@@ -122,6 +123,17 @@ export default () => (
           </div>
         </div>
         <div className="mt-16 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
+        <div className="w-full md:w-1/3">
+            <StatsBox
+              image={Jeong}
+              secondaryText="Jo Kim"
+              linkedin="https://www.linkedin.com/in/jo-kim-160b1a132/"
+            />
+            <p className="text-gray-600 mx-auto px-4 text-lg">Social Media Marketing Manager</p>
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
+            Jo is a University of Redlands alumni who studied Media and Visual Culture with an emphasis in Studio Art and Graphic Design.
+            </p>
+          </div>
           <div className="w-full md:w-1/3">
             <StatsBox
               image={Alex}
@@ -141,7 +153,7 @@ export default () => (
             />
             <p className="text-gray-600 mx-auto px-4 text-lg">Web Developer</p>
             <p className="mt-4 mx-6 mb-8 lg:mb-0">
-              Christie is a current student at the University of Colorado
+              Christie is a current student at the University of Colorado,
               Boulder pursuing a B.S. in Computer Science, experienced in Web Development.
             </p>
           </div>
