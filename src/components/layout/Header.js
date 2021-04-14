@@ -1,3 +1,4 @@
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoPNG from '../../images/HonLogo3.png';
@@ -25,6 +26,9 @@ const Header = () => (
         <AnchorLink className="px-2 lg:px-4 text-black hover:text-button" href="#testimonials">
           Clients
         </AnchorLink>
+        <OutboundLink className="px-2 lg:px-4 text-black hover:text-button" href="https://blog.hon-media.com" target="_blank" rel="noopener noreferrer">
+          Blog
+        </OutboundLink>
         <AnchorLink className="px-2 lg:px-4 text-black hover:text-button" href="#contact">
           Contact
         </AnchorLink>
