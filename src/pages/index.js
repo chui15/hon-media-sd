@@ -23,6 +23,7 @@ import Isabelle from './Isabelle2.png'
 import Jeong from './Jeong.png'
 import Steven from './Steven.png'
 import Victor from './Victor.png'
+import Wesley from './Wes.png'
 
 export default () => (
   <Layout>
@@ -123,7 +124,7 @@ export default () => (
           </div>
         </div>
         <div className="mt-16 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
-        <div className="w-full md:w-1/3">
+          <div className="w-full md:w-1/3">
             <StatsBox
               image={Jeong}
               secondaryText="Jo Kim"
@@ -158,7 +159,20 @@ export default () => (
             </p>
           </div>
         </div>
-      </div>
+        <div className="mt-16 flex flex-col space-x-8 sm:flex-row mt-10 lg:px-33">
+          <div className="w-full md:w-1/3">
+            <StatsBox
+              image={Wesley}
+              secondaryText="Wesley Yuen"
+              linkedin="https://www.linkedin.com/in/wesley-yuen-099b6815a/"
+            />
+            <p className="text-gray-600 mx-auto px-4 text-lg">Social Media Strategist</p>
+            <p className="mt-4 mx-6 mb-8 lg:mb-0">
+              Wesley is a UC San Diego alumni who studied Communication, with interest in Social Media and Marketing.
+            </p>
+          </div>
+        </div>
+      </div> 
     </section>
     <section
       id="services"
