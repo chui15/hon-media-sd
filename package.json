@@ -9,7 +9,7 @@
     "dev": "nodemon --exec 'kill-port --port 8000 && gatsby develop' --watch gatsby-node.js --watch package.json --watch gatsby-config.js"
   },
   "dependencies": {
-    "gatsby": "^2.18.18",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-google-analytics": "^2.11.0",
     "gatsby-plugin-google-gtag": "^3.0.0",
     "gatsby-plugin-manifest": "^2.4.23",
